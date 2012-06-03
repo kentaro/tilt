@@ -187,4 +187,7 @@ module Tilt
 
   require 'tilt/yajl'
   register YajlTemplate, 'yajl'
+
+  require 'tilt/jsx'
+  register JSXTemplate, 'jsx'
 end
